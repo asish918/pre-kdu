@@ -18,7 +18,8 @@ If you have it setup already, **AWESOME🤩**.
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 - [Java JDK](https://www.oracle.com/in/java/technologies/downloads/) version 21 or above
 - [VSCode](https://code.visualstudio.com/download) Everyone's favourite code editor ?
-- [Intellij IDEA Community Edition](https://www.jetbrains.com/idea/download/) No better IDE for Java
+- [Intellij IDEA Community Edition](https://www.jetbrains.com/idea/download/) No better IDE for Java.
+  [Detailed Installation instructions](https://www.jetbrains.com/help/idea/installation-guide.html)
 - [Git](https://git-scm.com/downloads) Because there's no better tool for collaborating on code
 
 ## Checks before launch
