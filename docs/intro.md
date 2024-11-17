@@ -2,46 +2,53 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's set you up **it should take 25 minutes (depends on your machine and internet 😉)**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **creating a Github Account first**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+If you have it setup already, **AWESOME🤩**.
 
-### What you'll need
+### What you'll need (tools and tech)
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
+- [Node.js and NPM](https://nodejs.org/en/download/) version 22.0 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Java JDK](https://www.oracle.com/in/java/technologies/downloads/) version 21 or above
+- [VSCode](https://code.visualstudio.com/download) Everyone's favourite code editor ?
+- [Intellij IDEA Community Edition](https://www.jetbrains.com/idea/download/) No better IDE for Java
+- [Git](https://git-scm.com/downloads) Because there's no better tool for collaborating on code
 
-## Generate a new site
+## Checks before launch
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Check Node JS and NPM Package manager
 
 ```bash
-cd my-website
-npm run start
+node --version
+npm --version
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Check Java
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+```bash
+java --version
+```
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Check Git
+
+```bash
+git --version
+```
+
+If all of these return version numbers, Houston is ready for launch !
+
+:::info For Nerds
+If you are already familiar with all of these tools, Great!
+Feel free to use any other tools that enhance your Dev Experience on top of these tools
+for example - Gitlens (a better Git flow right in VS Code), nvm (manage multiple Node Versions) etc.
+For terminal enthusiasts - you can explore [Lazygit](https://github.com/jesseduffield/lazygit)
+<br />
+**All of these are optional** and not needed for you to excel in Pre-KDU or KDU by any means. You'll find these across the docs for reference.
+:::
