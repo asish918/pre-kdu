@@ -34,7 +34,7 @@ export default function Home(): JSX.Element {
     <Layout title={`KDU`} description="Guide for Pre-KDU">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );

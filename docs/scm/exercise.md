@@ -13,6 +13,8 @@ Set your username:
 Set your email address:
 `git config --global user.email "MY_NAME@example.com"`
 
+#### TODO - Add command for init script that initialises hooks and lays out folder structure
+
 - Create a new repository called **`pre-kdu-training`** from the command line
 - Create a new branch from the main branch called **`PRE-KDU-1`**
 - Create a new file called README.md in the above repository in the PRE-KDU-1 branch.

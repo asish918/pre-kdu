@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Look into the `/java_oops` folder of the Github Repository you just created. Open it using VS Code/Intellij or any other editor of your choice.
 
-Open the `App.java` program and read the question properly. Implement the necessary classes and functions. Make sure the names of the classes and all of the mentioned functions.
+Open the `App.java` program and read the question properly. Implement the necessary classes and functions.
 
 You can add new classes in separate files to make the code more modular.
 
