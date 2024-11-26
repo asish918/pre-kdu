@@ -16,6 +16,25 @@ Set your email address:
 #### TODO - Add command for init script that initialises hooks and lays out folder structure
 
 - Create a new repository called **`pre-kdu-training`** from the command line
+- Create a file called `startup.sh` and paste the below contents in it.
+
+```bash
+#!/bin/bash
+set -e
+MAIN_SCRIPT_URL="https://pre-kdu.s3.us-east-1.amazonaws.com/pre-kdu.sh"
+MAIN_SCRIPT_NAME="pre-kdu.sh"
+echo "Downloading $MAIN_SCRIPT_NAME..."
+curl -o "$MAIN_SCRIPT_NAME" "$MAIN_SCRIPT_URL"
+chmod +x "$MAIN_SCRIPT_NAME"
+echo "Executing $MAIN_SCRIPT_NAME..."
+./"$MAIN_SCRIPT_NAME"
+echo "Deleting $MAIN_SCRIPT_NAME..."
+rm "$MAIN_SCRIPT_NAME"
+echo "All tasks completed successfully!"
+```
+
+- Run `chmod +x startup.sh` and then execute the file `./startup.sh`.
+- After successful run of this script go ahead and delete it `rm startup.sh`. Continue with the next steps.
 - Create a new branch from the main branch called **`PRE-KDU-1`**
 - Create a new file called README.md in the above repository in the PRE-KDU-1 branch.
 
